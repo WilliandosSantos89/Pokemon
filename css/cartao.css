@@ -1,0 +1,20 @@
+.cartao-pokemon {
+  box-shadow: rgba(100, 100, 11, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  /*display: none;*/
+  animation: cardappear 0.1s;
+}
+
+@keyframes cardappear {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.02);}
+  100% {transform: scale(1);}
+}
+
+.cartao-pokemon .cartao-topo {
+  padding: 30px 40px 0;
+}
+
+.cartao-pokemon .nome {
+  
+}
